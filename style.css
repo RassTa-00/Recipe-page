@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "outfit";
+    src: url("/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'young serif'; 
+    src: url("/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+.mainTitle, .ingredient, .titlePrep, .instruction, .nutritionTitle{
+    font-family: 'young serif';
+}
+body{
+    font-family: "outfit";
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#F3E5D8;
+    padding-bottom: 200px;
+}
+.mainContainer{
+    width: 680px;
+    height: max-content;
+    padding: 50px;
+    background-color:white;
+    border-radius: 15px;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+}
+#omelette{
+    width: 580px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.mainTitle{
+    opacity: 0.88;
+    font-weight: 600;
+    font-size: 34px;
+}
+.intro{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.8;
+    max-width: 540px;
+}
+.prepSubLabel{
+    color: rgb(76, 73, 73);
+    font-weight: 900;
+}
+.prepContainer{
+    background-color: rgba(241, 218, 234, 0.4);
+    padding: 15px;
+    margin: 50px 15px;
+    border-radius: 10px;
+    line-height: 27px;
+    opacity: 0.85;
+}
+
+.prepList::marker{
+    color: rgb(129, 10, 93);
+}
+.titlePrep{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(129, 10, 93);
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+}
+.ingredient{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    color:#9C4432;
+    
+}
+.ingredients{
+    opacity: 0.9;
+    line-height: 27px;
+}
+.ingList::marker{
+    color: #9C4432; 
+}
+.hrule{
+    opacity: 0.3;
+    margin: 50px 20px;
+}
+.instruction, .nutritionTitle{
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #9C4432; 
+}
+.instructionsList{
+    text-align: justify;
+    letter-spacing: 0.2px;
+    opacity: 0.8;
+    max-width: 520px;
+    line-height: 20px;
+}
+.instructionsList::marker{
+    color: #9C4432; 
+    font-weight: 600;
+    
+}
+.nutritionIntro{
+    opacity: 0.8;
+    max-width: 550px;
+}
+.container{
+    margin-top:20px;
+}
+.info{
+    color: #9C4432; 
+    font-weight: 900;
+}
+.name{
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.attribution { font-size: 11px; text-align: center;
+position: fixed;
+bottom: 0;
+left: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
